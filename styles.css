@@ -43,14 +43,14 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 56px;
     padding: 100px;
 }
 
 .hero-texts {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    width: 450px;
     align-items: start;
     gap: 8px;
 }
@@ -58,13 +58,10 @@ ul {
 .hero-texts button {
     border: 1px solid #3882F6;
     color: #E5E8EB;
-    padding: 8px 16px;
+    padding: 8px 32px;
     border-radius: 8px;
-}
-
-.hero-img {
-    background-color: #656C73;
-
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .hero-main-text {
