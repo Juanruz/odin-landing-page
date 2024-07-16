@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    padding: 16px;
+    margin-bottom: 48px;
 }
 
 .hero-logo {
@@ -43,6 +43,28 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 32px;
+    padding: 100px;
+}
+
+.hero-texts {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: start;
+    gap: 8px;
+}
+
+.hero-texts button {
+    border: 1px solid #3882F6;
+    color: #E5E8EB;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.hero-img {
+    background-color: #656C73;
+
 }
 
 .hero-main-text {
